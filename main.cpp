@@ -37,9 +37,10 @@ public:
 
 
 
-
+// driver code 
 int  main()
 {
+    // information of each badge
     NJIT Freshmen; //object 1
     Freshmen.no_of_teachers = 50;
     Freshmen.no_of_students = 4000;
@@ -66,6 +67,7 @@ int  main()
     NJIT obj1;
     obj1.xyz();
 }
+//function to add all of the students
 int Total_students (int a,int b,int c,int d)
 {
     int  total_students = a +b + c + d;
